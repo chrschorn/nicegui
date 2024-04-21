@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<meta charset="utf8" />
+<h1>CodeMirror!</h1>
+<script>
+  import("./editor.bundle.min.js").then((module) => {
+    let { EditorView, basicSetup, python } = module;
+    let editor = new EditorView({
+      extensions: [basicSetup, python()],
+      parent: document.body,
+    });
+  });
+</script>
