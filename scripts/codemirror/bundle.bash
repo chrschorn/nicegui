@@ -19,7 +19,7 @@ npm -v
 # The CodeMirror packages used in our script
 npm i codemirror @codemirror/language-data
 # Themes
-npm i @uiw/codemirror-themes-all @babel/runtime
+npm i @uiw/codemirror-themes-all @codemirror/theme-one-dark @babel/runtime
 
 # Install Rollup and its plugin
 npm i rollup @rollup/plugin-node-resolve @rollup/plugin-terser

@@ -34,6 +34,6 @@
     }
   },
   // More info: https://aka.ms/dev-containers-non-root.
-  "remoteUser": "vscode",
+  // "remoteUser": "vscode",
   "postCreateCommand": "poetry install --all-extras"
 }
